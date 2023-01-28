@@ -1,0 +1,53 @@
+@api = http://localhost:4000
+
+### Get all videos
+GET {{api}}/videos
+
+### Get a single video
+GET {{api}}/videos/1
+
+### Create a video
+POST {{api}}/videos
+Content-Type: application/json
+
+{
+    "title": "Hermanas de Batalla (Radiante)",
+    "description": "Hermanas de Batalla (Radiante)",
+    "url": "https://www.youtube.com/watch?v=gGctfJjCo68"
+}
+
+### Create a video
+POST {{api}}/videos
+Content-Type: application/json
+
+{
+    "title": "Príncipe Gris Zote (Radiante)",
+    "description": "Príncipe Gris Zote (Radiante)",
+    "url": "https://www.youtube.com/watch?v=2XInPNKYCRc"
+}
+
+### Create a video
+POST {{api}}/videos
+Content-Type: application/json
+
+{
+    "title": "Ultra Violence 100%",
+    "description": "Ultra Violence 100%",
+    "url": "https://www.youtube.com/watch?v=1lEUncTNowQ"
+}
+
+### Create a video
+POST {{api}}/videos
+Content-Type: application/json
+
+{
+    "title": "Practicando Swaps - DS3",
+    "description": "Practicando Swaps - DS3",
+    "url": "https://www.youtube.com/watch?v=3EIYAJpe0Nc"
+}
+
+### Update a video
+PUT {{api}}/videos/1
+
+### Delete a video
+DELETE {{api}}/videos/63cb0869959bb4015f54201d
